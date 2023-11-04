@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    padding: 2rem;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        min-width: 300px;
+        min-height: 40vh;
+        background-color: white;
+        border-radius: 20px;
+        padding:20px;
+        img{
+            border-radius: 50%;
+            height: 200px;
+            margin-bottom: 20px;
+
+        }
+        img:hover{
+            border: 10px solid #49d076;
+        }
+        h1{
+            font-size: 40px;
+
+        }
+        p{
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #49d076;
+        }
+        div{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           gap: 20px;
+           svg{
+            height: 40px;
+            border:3px solid #49d076;
+            border-radius: 50%;
+            padding: 2px;
+           }
+           
+        }
+       
+    }
+    
+}
+@media screen and (max-width: 1000px){
+    main{
+        min-width: 100%;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
+            min-width: 320px;
+            min-height: 40vh;
+            background-color: white;
+            border-radius: 20px;
+            padding:20px;
+            img{
+                border-radius: 50%;
+                height: 200px;
+                margin-bottom: 20px;
+    
+            }
+            img:hover{
+                border: 10px solid #49d076;
+            }
+            h1{
+                font-size: 40px;
+    
+            }
+            p{
+                font-size: 20px;
+                margin-bottom: 20px;
+                color: #49d076;
+            }
+            div{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               gap: 20px;
+               svg{
+                height: 40px;
+                border:3px solid #49d076;
+                border-radius: 50%;
+                padding: 2px;
+               }
+               
+            }
+           
+        }
+        
+    }
+}
